@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string",
+      "pattern": "^[0-9]{12}$"
+    },
+    "prix": {
+      "type": "number",
+      "minimum": 0
+    },
+    "date_achat": {
+      "type": "string",
+      "format": "date"
+    },
+    "consomme": {
+      "type": "boolean"
+    },
+    "acheteur": {
+      "type": "object",
+      "properties": {
+        "nom": {
+          "type": "string"
+        },
+        "prenom": {
+          "type": "string"
+        },
+        "mail": {
+          "type": "string",
+          "format": "email"
+        }
+      },
+      "required": [
+        "nom",
+        "prenom",
+        "mail"
+      ]
+    },
+    "concert_id": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "code",
+    "prix",
+    "date_achat",
+    "consomme",
+    "acheteur",
+    "concert_id"
+  ]
+}

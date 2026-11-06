@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "nom_scene": {
+      "type": "string"
+    },
+    "adresse": {
+      "type": "string"
+    },
+    "capacite": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "required": [
+    "id",
+    "nom_scene",
+    "adresse",
+    "capacite"
+  ]
+}
