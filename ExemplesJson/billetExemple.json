@@ -9,5 +9,21 @@
     "prenom": "Jean",
     "mail": "jean.dupont@email.com"
   },
-  "concert_id": 1
+  "concert": {
+    "id": 1,
+    "genre_musical": "Rap",
+    "date_debut": "2023-10-15T14:30:00Z",
+    "date_fin": "2023-10-15T16:30:00Z",
+    "statut": "terminé",
+    "artiste": {
+      "id": 1,
+      "nom_artiste": "Hakai"
+    },
+    "scene": {
+      "id": 1,
+      "nom_scene": "La boule noire",
+      "adresse": "120 Blvd Marguerite de Rochechouart, 75018 Paris",
+      "capacite": 200
+    }
+  }
 }
