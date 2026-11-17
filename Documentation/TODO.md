@@ -1,0 +1,4 @@
+- définition du périmètre
+- faire les user stories
+- finir les endpoints
+- backlog et répartition des tâches
